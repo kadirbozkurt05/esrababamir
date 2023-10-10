@@ -42,7 +42,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 3.125rem;
+  font-size: 3.75rem;
   text-transform: none;
   margin: 19px auto 0 35px;
 }
@@ -138,11 +138,18 @@
 
 .u-section-2 .u-text-2 {
   font-size: 2.25rem;
-  margin: 14px 43px 0 auto;
+  margin: 14px 240px 0 auto;
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-text-2 {
+    margin-right: 180px;
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 113px;
   }
 }
